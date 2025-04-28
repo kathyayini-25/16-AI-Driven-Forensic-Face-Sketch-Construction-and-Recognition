@@ -16,6 +16,13 @@ It provides APIs for facial detection, recognition, and criminal matching, along
 - **Portable Design:** Ready for integration with Web Apps, Desktop apps, Surveillance systems.
 
 ---
+# 🎥 Execution Video
+
+Watch the complete working demo of **FaceTrace** here:  
+[Watch the video](https://drive.google.com/file/d/1rexNACGenBhDd2ktu1j_Av_imk3ypX9K/view?usp=sharing)
+
+
+---
 
 # 🚀 System Requirements
 
