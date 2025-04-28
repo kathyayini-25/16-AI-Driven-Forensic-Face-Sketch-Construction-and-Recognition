@@ -27,7 +27,7 @@ app.use(express.json());
 app.use("/auth", authRouter);
 app.use("/image",UploadRoute);
 
-const uri=process.env.MONGODB_URI || "mongodb+srv://rohan:rohan@cluster0.sjgyh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  ;
+const uri=process.env.MONGODB_URI  ;
 
 
 
