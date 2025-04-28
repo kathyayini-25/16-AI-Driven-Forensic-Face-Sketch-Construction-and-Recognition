@@ -6,6 +6,9 @@ It provides APIs for facial detection, recognition, and criminal matching, along
 
 ---
 
+![Demo Image](fnd/src/assets/Demoex.png)
+
+---
 # ✨ Project Highlights
 
 - **Deep Learning Face Recognition:** Custom model for sketch-to-photo matching.
