@@ -13,15 +13,13 @@ bnd/venv/
 # Model files
 api/models/*.pth
 
-# Criminal faces folder (from your previous request)
+# Criminal faces folder (per your previous request)
 criminal_faces/
 
-# Other large files
+# Other large or temporary files
 *.zip
 *.tar.gz
 *.egg
 *.bin
-
-# Temporary and cache files
 __pycache__/
 *.pyc
