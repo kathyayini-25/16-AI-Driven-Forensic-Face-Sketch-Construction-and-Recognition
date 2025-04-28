@@ -1,0 +1,18 @@
+# Virtual environments
+api/venv/
+api2/venv/
+bnd/venv/
+
+# Large files and dependencies
+*.pyd
+*.lib
+*.dll
+*.pth
+
+# Criminal faces folder
+criminal_faces/
+
+# Optional: Other large files
+*.zip
+*.tar.gz
+*.whl
