@@ -1,0 +1,23 @@
+
+.display-results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .res-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .res-details{
+    height: 500px;
+    width: 600px;
+    font-size: large;
+    color: red;
+  }
+
+  .dir-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }

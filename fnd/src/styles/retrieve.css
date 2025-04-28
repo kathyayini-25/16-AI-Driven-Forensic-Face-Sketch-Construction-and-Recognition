@@ -1,0 +1,45 @@
+/* src/styles/retrieve.css */
+
+/* Custom styles to enhance Tailwind */
+.retrieval-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f1f5f9, #e2e8f0);
+}
+
+.result-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.result-card:hover {
+  transform: translateY(-4px);
+}
+
+.image-wrapper img {
+  transition: opacity 0.3s ease;
+}
+.image-wrapper img:hover {
+  opacity: 0.95;
+}
+.details-box {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.info-btn {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.loading-container .generating-image {
+  animation: fade 1s ease-in-out infinite alternate;
+}
+
+@keyframes fade {
+  from { opacity: 0.7; }
+  to { opacity: 1; }
+}
+
+/* Ensure Tailwind utilities work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
