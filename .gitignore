@@ -3,16 +3,25 @@ api/venv/
 api2/venv/
 bnd/venv/
 
-# Large files and dependencies
+# Large dependency files
 *.pyd
 *.lib
 *.dll
-*.pth
+*.whl
+*.so
 
-# Criminal faces folder
+# Model files
+api/models/*.pth
+
+# Criminal faces folder (from your previous request)
 criminal_faces/
 
-# Optional: Other large files
+# Other large files
 *.zip
 *.tar.gz
-*.whl
+*.egg
+*.bin
+
+# Temporary and cache files
+__pycache__/
+*.pyc
